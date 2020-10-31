@@ -1,0 +1,29 @@
+.footer{   
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:white;
+    min-height:10px;
+    width:auto;
+    position:relative;
+    border: double 10px #209789;   
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.footer .list {    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    font-size: x-large;
+    list-style-type: none;
+}
+
+.footer .li {    
+    text-align: center;    
+    text-decoration: none;
+    float: left;    
+}
+
+.footer a{
+    color: rgb(230, 71, 97);  
+}
