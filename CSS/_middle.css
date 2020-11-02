@@ -1,0 +1,76 @@
+.middle{
+    
+
+}
+.middle .text{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(230, 71, 97);    
+}
+.middle .card {
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #209789;    
+}
+
+.image-class {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+  border: solid 5px #209789;
+    
+}
+  
+.middle .price {
+    color: rgb(230, 71, 97);
+    font-size: 22px;
+    text-align: center;
+}
+.middle .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-sizing: height 300px;
+    box-sizing: width 300px;
+}
+.middle .about-section {
+    display: block;
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    border: double 10px #209789;
+    color: rgb(230, 71, 97);
+    margin-bottom: 170px;
+}
+
+.middle .card :hover {
+    size: 125%;
+}
+
+/* .middle .aboutmid {
+    text-align: justify;
+    height: 250px;
+    position: relative;
+    animation: mymove 5s infinite;
+    border : 3px solid red;
+    font-style: italic;
+    padding: 10px;
+    background-color: blue;
+}
+
+@keyframes mymove {
+    0%   {top: 0px; left: 0px; background: yellow}
+    25%  {top: 0px; down: 100px; background: rgb(250, 142, 244);}
+    50%  {top: 315px; down: 100px; background: yellow;}
+    75%  {top: 315px; down: 0px; background: rgb(151, 235, 151);}
+    100% {top: 0px; left: 0px; background: rgb(84, 174, 209);}
+}
+ */
+
+
+  
