@@ -1,4 +1,4 @@
-.middle{
+.middle{    
     
 
 }
@@ -31,8 +31,7 @@
 .middle .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    box-sizing: height 300px;
-    box-sizing: width 300px;
+   
 }
 .middle .about-section {
     display: block;
@@ -45,13 +44,37 @@
     text-align: justify;
     border: double 10px #209789;
     color: rgb(230, 71, 97);
-    margin-bottom: 170px;
+    margin-top: 150px;
+    margin-bottom: 200px;
 }
 
-.middle .card :hover {
-    size: 125%;
+.middle a {
+    color: #209789;
+    font-size: xx-large;
+}
+.middle .h1{
+    margin-bottom: 100px;
+    
+}
+.middle .h1 :hover{
+    color: rgb(230, 71, 97);
+    
+}
+.middle .home-mid{
+    display: grid;
+    grid-template-columns: 1fr 4fr ;    
+    margin-left: 0px;
+    font-size: xx-large;
 }
 
+.middle .news{
+    position: sticky;
+    color: rgb(230, 71, 97); 
+    background-color: rgb(226, 206, 195);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 5px #209789;
+}
 /* .middle .aboutmid {
     text-align: justify;
     height: 250px;

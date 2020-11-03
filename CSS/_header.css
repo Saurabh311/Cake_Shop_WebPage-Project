@@ -54,14 +54,14 @@ h1 {
   margin-right: auto;
   left: 0;
   right: 0;
-  top: 200;  
+  top: 200px;  
     }
 }
 @media (max-width: 750px){
     .header .list{        
         left: 0;
         right: 0;
-        top: 100;
+        top: 100px;
         display: grid;
         padding: 0;
         margin: -20px;
