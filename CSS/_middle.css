@@ -45,7 +45,7 @@
     border: double 10px #209789;
     color: rgb(230, 71, 97);
     margin-top: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 
 .middle a {
@@ -74,6 +74,32 @@
     padding: 10px;
     border-radius: 10px;
     border: solid 5px #209789;
+}
+@media (max-width: 750px){
+    .middle .home-mid{
+        display: grid;
+        grid-template-columns: 1fr ;    
+        margin-left: 0px;        
+        font-size: medium;
+    }
+}
+@media (max-width: 750px){
+    .middle .news{
+        position: sticky;
+        color: rgb(230, 71, 97); 
+        background-color: rgb(226, 206, 195);
+        padding: 10px;
+        margin: 35px;
+        border-radius: 10px;
+        border: solid 5px #209789;
+    }
+}
+@media (max-width: 750px){
+    .middle .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
 }
 /* .middle .aboutmid {
     text-align: justify;
