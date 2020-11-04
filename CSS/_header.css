@@ -15,7 +15,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;  
     font-size: xx-large;
     list-style-type: none;    
-    padding-left: 200px;
+    padding-left: 100px;
     overflow: hidden;   
     
 }
@@ -49,12 +49,12 @@ h1 {
 
 @media (max-width: 750px){
     .header .image{
-  display: block;
+  
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
-  top: 200px;  
+   
     }
 }
 @media (max-width: 750px){
