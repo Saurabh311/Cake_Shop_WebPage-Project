@@ -1,0 +1,85 @@
+<!DOCTYPE h>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title> CAKE_SHOP: Celebate happiness</title>
+      <script src="https://kit.fontawesome.com/86134dd369.js" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css"/>
+      <script> 
+        function validateForm() { 
+            var name =  
+                document.forms["Form"]["Name"]; 
+            var email =  
+                document.forms["Form"]["EMail"]; 
+                if (name.value == "") { 
+                    window.alert("Please enter your name."); 
+                    name.focus(); 
+                    return false; 
+                } 
+  
+                if (Email.value == "") { 
+                    window.alert("Please enter your address."); 
+                    address.focus(); 
+                    return false; 
+                } 
+                return true;
+            }
+        </script>
+  </head>
+
+  <body >
+    <!-- Header-->
+    <header class="header">
+       <section class="front">
+       <img class ="image" src="./Images/Logo.png" title="company logo" alt="Round circle having green cake and brand name in it">      
+       
+           <ul class = "list">  
+               <li class="li"><a href="./index.html">Home</a></li>      
+               <li class="li"><a href="./_about.html">About</a></li>
+               <li class="li"><a href="./_product.html" >Product </a></li>
+               <li class="li"><a href="./_contact.html"> Contact</a></li>
+             </ul>        
+      </section>           
+
+    </header>
+    <!--Mid section-->
+      <section class="form">
+          <h1>Fill up the form</h1>
+          <form name="Form" action="mailto:saurabh311@gmail.com" 
+          onsubmit="return validateForm()" method="post"> 
+            <label for="fname">First name:</label><br>
+            <input type="text" name="Name" ><br>
+            <label for="Email">Email ID:</label><br>
+            <input type="text" name="Email"><br>
+            <label for="Subject">Subject:</label><br>
+            <input type="text"  name="Subject"><br><br>
+            <input type="submit" name="Submit">
+
+          </form>
+      </section>
+      <!--Footer-->
+     <footer class="footer" >
+        <ul class = "list">  
+            <li class="li">
+                    <a href="mailto:softwaredevelopmentacademy@gmail.com">Email ID 
+                    <i class="fas fa-envelope-square"></i>
+                   </a>
+            </li>
+            <li class="li">
+                    <a 
+                    href= "http://instagram.com/munamii.cakery//" 
+                    target="_blank">Instagram
+                    <i class="fab fa-instagram"></i>        
+                    </a>
+            </li>
+            <li class="li">
+                    <a 
+                    href= "http://facebook.com/munamiicupcakes/" 
+                    target="_blank"> Facebook
+                    <i class="fab fa-facebook"></i>
+                    </a>
+             </li>
+         </ul>      
+    </footer>
+  </body>
